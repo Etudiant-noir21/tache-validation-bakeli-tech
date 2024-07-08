@@ -23,6 +23,24 @@ header a{
 .entete p{
     font-size: 15px;
 }
+@media screen and (max-width: 1000px) {
+    .entete{
+        flex-wrap: nowrap;
+        display: inline-block;
+    }
+    .entete p{
+        animation: scroll 4s linear infinite;
+    }
+    @keyframes scroll {
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(calc(-250px));
+        }
+    }
+    
+}
 .mx-2{
     width: 5px;
     fill: #000000;
@@ -38,9 +56,6 @@ header a{
 .nav li{
     list-style: none;
     padding-left: 50px;
-}
-.nav li a:hover{
-    
 }
 .nav li ul {
     display: none;
