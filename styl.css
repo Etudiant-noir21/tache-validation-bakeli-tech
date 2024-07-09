@@ -23,6 +23,24 @@ header a{
 .entete p{
     font-size: 15px;
 }
+@media screen and (max-width: 1000px) {
+    .entete{
+        flex-wrap: nowrap;
+        display: inline-block;
+    }
+    .entete p{
+        animation: scroll 4s linear infinite;
+    }
+    @keyframes scroll {
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(calc(-250px));
+        }
+    }
+    
+}
 .mx-2{
     width: 5px;
     fill: #000000;
@@ -39,20 +57,22 @@ header a{
     list-style: none;
     padding-left: 50px;
 }
-.nav li a:hover{
-    
-}
 .nav li ul {
     display: none;
     position: absolute;
     top: 100%;
-    width: 100px;
-    left: 100px;
+    width: 100%;
+    left: 0;
 }
 
-.nav li:hover ul {
+.nav li:active ul {
     display: flex;
-    position: fixed;
+}
+.dropdown{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: #fff;
+        width: 100rem;
 }
 .span1{
     color: #fe9b4c;
@@ -422,7 +442,7 @@ header a{
 }
 .content-six p{
     position: relative;
-    top: -50px;
+    top: -20px;
     left: 20px;
     line-height: 10px;
     margin-bottom: 0;
