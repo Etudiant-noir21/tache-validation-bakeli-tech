@@ -61,13 +61,18 @@ header a{
     display: none;
     position: absolute;
     top: 100%;
-    width: 100px;
-    left: 100px;
+    width: 100%;
+    left: 0;
 }
 
-.nav li:hover ul {
+.nav li:active ul {
     display: flex;
-    position: fixed;
+}
+.dropdown{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: #fff;
+        width: 100rem;
 }
 .span1{
     color: #fe9b4c;
