@@ -225,6 +225,7 @@ visibility: hidden;}
     color: #fff;
     background-color: #FF9800;
     border-radius: 10px;
+    outline: none;
     width: 15rem;
     border: 0;
     font-size: 14px;
@@ -684,7 +685,7 @@ color: #fff;
    margin-top: 2rem;
    justify-content: center;
   }
- @media screen and (max-width:1024px){
+ @media screen and (max-width:600px){
     .formulaire-content{
         width: 100%;
         justify-content: center;
@@ -692,7 +693,7 @@ color: #fff;
     .form-content{
         width: 100%;
         flex-direction: column;  
-        /* padding: 0 10rem;  */
+        padding: 0 10px; 
     }
     
     .flex-item{
@@ -716,12 +717,13 @@ color: #fff;
                /* media partie evenement */
     .sec-2{
         grid-template-columns: 1fr;
-        padding: 0;
+        padding: 0 20px;
+        /* padding-right: 20px; */
     }
     .grille-photo{
         width: 100%;
         grid-template-columns: 1fr;
-        /* padding: 0; */
+       
     }
     .photo-item{
         width: 100%;
@@ -731,7 +733,7 @@ color: #fff;
         padding-bottom: 0;
     }
     .down-partie{
-        top: 60%;
+        top: 65%;
     }
         /* bakeli-1.html */
     .sec-01{
@@ -750,6 +752,9 @@ color: #fff;
       gap: 2rem;
       /* padding: 0; */
    }
+   .absolute-form{
+      right: 12%;
+   }
    .left-sec02{
       width: 100%;
       padding-bottom: 2rem;
@@ -764,6 +769,7 @@ color: #fff;
    .footer-01{
       flex-direction: column;
     }
+    
     .right-footer{
       width: 100%;
     }
@@ -789,7 +795,7 @@ color: #fff;
         }
  } 
  
- @media screen and (min-width:601px) and (max-width:1024px){
+ @media screen and (min-width:601px) and (max-width:1200px){
     .sec-2{
         grid-template-columns: 1fr;
     }
@@ -800,6 +806,9 @@ color: #fff;
     }
     .grille-photo{
         grid-template-columns: repeat(3,1fr);
+        /* justify-content: center; */
+        /* left: 50%; */
+        padding: 0;
     }
     .absolute-form{
         right: 55%;

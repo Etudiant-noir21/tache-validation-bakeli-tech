@@ -585,22 +585,3 @@ footer{
 footer p{
     font-size: 14px;
 }
-@media screen and (max-width:600px) {
-    header{
-        width: 100%;
-    }
-    .entete{
-        width: 100%;
-    }
-    .nav{
-        display: none;
-        width: 100%;
-    }
-    .main-content{
-        width: 100%;
-    }
-    .main-content{
-        width: 100%;
-    }
-}
-
