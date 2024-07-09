@@ -13,7 +13,7 @@ body{
 }
 /* from  #FF9800
 to  #F44336  */
-header .annonce{
+/* header .annonce{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@ header .annonce{
 }
 .Rentree{
     font-weight: 600;
-}
+} */
 /* <<<<<<<<<<<<<<section 1>>>>>>>>>>> */
 .section-1{
     padding: 20px 30px;
@@ -68,6 +68,7 @@ visibility: hidden;}
 }
                     /* section-2 */
 .section-2{
+   /* margin-top: 10rem; */
     text-align: center;
     padding: 10px 30px;
 }
@@ -240,6 +241,8 @@ visibility: hidden;}
     background-position: center;
     text-align: center;
     padding: 60px 30px;
+   /* padding-bottom: 10rem; */
+
 
  }
  .sec-1 h1{
@@ -492,6 +495,10 @@ padding: 0 10px;
       display: flex;
       flex-direction: column;
       gap: 10px;
+     }
+     footer img{
+      width: 3rem;
+      
      }
      .right-footer button{
       width: 10rem; 
