@@ -25,8 +25,8 @@ header a{
 }
 @media screen and (max-width: 1000px) {
     .entete{
-        flex-wrap: nowrap;
-        display: inline-block;
+        /* flex-wrap: nowrap;
+        display: flex; */
     }
     .entete p{
         animation: scroll 4s linear infinite;
@@ -38,6 +38,9 @@ header a{
         100%{
             transform: translateX(calc(-250px));
         }
+    }
+    header{
+
     }
     
 }
@@ -617,7 +620,7 @@ footer p{
     }
 
     .entete{
-        width: 100%;
+        /* width: 100%; */
     }
     
     .nav li, .bouton{
