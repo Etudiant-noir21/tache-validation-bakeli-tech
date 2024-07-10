@@ -95,7 +95,7 @@ header a{
 section {
   width: 50%;
   margin: auto;
-  padding-top: 150px;
+  padding-top: 30px;
 }
 
 nav {
@@ -195,4 +195,29 @@ img {
 
 .next-page:hover {
   text-decoration: underline;
+}
+@media screen and (max-width:600px){
+  body{
+    font-size: 17px;
+    /* line-height: 30px; */
+  }
+  section{
+    width: 90%;
+    padding-top: 10rem;
+
+  }
+  img{
+    display: none;
+  }
+  .pic-decor{
+    height: 180px;
+  }
+  .desc-pro{
+    padding-left: 0;
+  }
+}
+@media screen and (min-width:601) and (max-widht:1024px){
+  section{
+    width: 70%;
+  }
 }
