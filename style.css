@@ -11,24 +11,7 @@ body{
     overflow-x: hidden;
     
 }
-/* from  #FF9800
-to  #F44336  */
-/* header .annonce{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding: 20px 30px;
-    background: linear-gradient(from  #FF9800 to #F44336);
- 
-}
-.annonce ul{
-    display: flex;
-    gap: 2rem;
-}
-.Rentree{
-    font-weight: 600;
-} */
+
 /* <<<<<<<<<<<<<<section 1>>>>>>>>>>> */
 .section-1{
     padding: 20px 30px;
@@ -217,10 +200,11 @@ visibility: hidden;}
     color: #0A9284;
     padding-bottom: 5px;
  }
- .btn-submit{
+ .formulaire-content .btn-submit{
     text-align: end;
  }
- .btn-submit input{
+ 
+ .formulaire-content .btn-submit input{
     padding: 15px;
     color: #fff;
     background-color: #FF9800;
@@ -230,8 +214,9 @@ visibility: hidden;}
     border: 0;
     font-size: 14px;
     font-weight: 600;
+    
  }
- .btn-submit input:hover{
+ .formulaire-content .btn-submit input:hover{
     opacity: 0.80;
  }
  /* <<<<<<<<<<<<<<<partie evenements>>>>>>>>>>>>>> */
